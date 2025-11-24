@@ -4,7 +4,7 @@ var _data = '';
 var currentLine = '';
 mounted();
 async function setLyric() {
-  await fetch('js/lyrics/tor-pirite-pagol-hoilam-re.json', {
+  await fetch('music_lyrics/js/lyrics/tor-pirite-pagol-hoilam-re.json', {
     method: 'GET',
   })
     .then((response) => response.json())
